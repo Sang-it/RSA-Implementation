@@ -1,7 +1,7 @@
 import bigInt from "big-integer"
 import { getGCD } from "./gcd.js"
 
-//Everything is based on Eulers theorem:
+//Everything is based on Fermats little theorem.
 // m ^ (ed) == m (mod n) where n = ed
 // == is the quivalence(the three line thing) sign here
 
