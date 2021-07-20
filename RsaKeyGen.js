@@ -11,6 +11,7 @@ const p = 7907
 const q = 7919
 
 const N = bigInt(p).times(q)
+console.log(N)
 
 //Eulers totient : the number of factors lower than the number
 const phiN = bigInt(p - 1).times(q - 1)
@@ -44,7 +45,7 @@ const fermatPrimes = [
 //it gives a lower value for d which makes decryption less expensive.
 
 const d = bigInt(e).modInv(lambdaN) //The Decryption key
-
+console.log(d)
 //Encrypting a number
 //We can define a function to parse strings to numbers later
 
